@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="get" action="Form.html">
+  <h2>Order Form</h2>
+  <p>Bạn muốn mua gì nào ?</p>
+  <select>
+    <option value="">A</option>
+    <option value="">B</option>
+    <option value="">C</option>
+
+  </select>
+
+  <p>How many would you like to order?</p>
+  <input type="radio" name="rd" id="10"/> <label for="10">1 - $10 </label> <br/>
+  <input type="radio" name="rd" id="20"/> <label for="20">2 - $20</label>  <br/>
+  <input type="radio" name="rd" id="25"/> <label for="25">3 - $25</label>  <br/>
+  <p>Name <span style="color: red">*</span> </p>
+  <label for="fname"></label>
+  <input type="text" id="fname" placeholder="First Name" required>
+  <label for="lname"></label>
+  <input type="text" id="lname" placeholder="Last Name" required>
+  <p>Email <span style="color: red">*</span> </p>
+  <label for="email"></label>
+  <input type="text" id="email" placeholder="Email" required>
+  <p>Phone Number</p>
+  <label for="num1"></label>
+  <input type = "text" id="num1" name="phone1" size="5"/> -
+  <label for="num2"></label>
+  <input type = "text" id="num2" name="phone2" size="5"/> -
+  <label for="num3"></label>
+  <input type = "text" id="num3" name="phone3" size="5"/> <br>
+  <input type="button" name="btSubmit" value="Submit">
+</form>
+</body>
+</html>

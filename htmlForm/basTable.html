@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        .body__background {
+            background-color: cyan;
+            /*color: aqua;*/
+            width: 500px;
+            display: block;
+            padding: 10px;
+        }
+
+        .body__content{
+            background-color: white;
+        }
+
+        .title{
+            text-align: center;
+            color: white;
+            margin: 5px;
+            /*padding: 5px;*/
+        }
+        .naemail{
+            color: blue;
+            display: inline-block;
+            min-width: 70px;
+            padding: 5px;
+            margin: 0px;
+        }
+        .bt1{
+            padding: 1px;
+            margin-left: 90px;
+        }
+    </style>
+</head>
+<body>
+<div class="body__background">
+    <div class="body__content">
+        <div style="background-color: red" >
+            <h1 class="title">Sở thích của bạn</h1>
+        </div>
+        <form action="">
+            <label for="name" class="naemail">Họ và tên </label>
+            <input type="text" name="name" id="name" size="30"><br>
+            <label for="email" class="naemail">Email </label>
+            <input type="text" name="email" id="email">
+            <table>
+                <tr>
+                    <td rowspan="3" style="vertical-align: top">
+                         <p class="naemail">Sở thích</p>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="thethao" id="chthethao" value="TheThao">
+                        <label for="chthethao"> Thể thao</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="amnhac" id="chamnhac" value="AmNhac">
+                        <label for="chamnhac">Âm nhạc</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="choigame" id="choigame" value="choigame">
+                        <label for="choigame">Chơi game</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="docsach" id="docsach" value="docsach">
+                        <label for="docsach">Đọc sách</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="dulich" id="dulich" value="dulich">
+                        <label for="dulich">Du Lịch</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="dienanh" id="dienanh" value="dienanh">
+                        <label for="dienanh">Điện Ảnh</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="luotweb" id="luotweb" value="luotweb">
+                        <label for="luotweb">Lướt web</label></td>
+                </tr>
+            </table>
+            <input type="submit" value="Gửi thông tin" class="bt1">
+            <input type="reset" value="Nhập lại" class="bt2">
+        </form>
+
+    </div>
+</div>
+<hr>
+<!--Phần 2-->
+<div class="body__p2">
+    <div class="body__heading">
+
+    </div>
+    <form action="">
+    <label for="ten" class="">Họ và tên </label>
+    <input type="text" name="name" id="ten" size="30"><br>
+    <label for="birthday" class=""> Ngày sinh </label>
+    <input type="text" name="birthday" id="birthday">
+
+</form>
+</div>
+</body>
+
+</html>
